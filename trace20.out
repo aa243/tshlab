@@ -1,0 +1,8 @@
+#
+# trace20.txt - Forward SIGTSTP to every process in foreground process group
+#
+tsh> ./mysplit 10
+Job [1] (7888) stopped by signal 127
+tsh> /bin/sh -c '/bin/ps h | /bin/fgrep -v grep | /bin/fgrep mysplit | /usr/bin/expand | /usr/bin/colrm 1 15 | /usr/bin/colrm 2 11'
+ 00 ./mysplit 10
+ 00 ./mysplit 10

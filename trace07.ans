@@ -1,0 +1,10 @@
+#
+# trace07.txt - Use the jobs builtin command.
+#
+tsh> ./myspin1 10 &
+[1] (7616) ./myspin1 10 &
+tsh> ./myspin2 10 &
+[2] (7618) ./myspin2 10 &
+tsh> jobs
+[1] (7616) Running    ./myspin1 10 &
+[2] (7618) Running    ./myspin2 10 &

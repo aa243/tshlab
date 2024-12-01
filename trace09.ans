@@ -1,0 +1,7 @@
+#
+# trace09.txt - Send SIGTSTP to foreground job.
+#
+tsh> ./mytstpp
+Job [1] (7652) stopped by signal 20
+tsh> jobs
+[1] (7652) Stopped    ./mytstpp

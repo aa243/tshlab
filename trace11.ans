@@ -1,0 +1,6 @@
+#
+# trace11.txt - Child sends SIGINT to itself
+#
+tsh> ./myints
+Job [1] (7700) terminated by signal 2
+tsh> quit

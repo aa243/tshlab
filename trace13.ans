@@ -1,0 +1,9 @@
+#
+# trace13.txt - Forward SIGINT to foreground job only.
+#
+tsh> ./myspin1 5 &
+[1] (7743) ./myspin1 5 &
+tsh> ./myintp
+Job [2] (7745) terminated by signal 2
+tsh> jobs
+[1] (7743) Running    ./myspin1 5 &

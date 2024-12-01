@@ -1,0 +1,14 @@
+#
+# trace22.txt - I/O redirection (input)
+#
+tsh> ./mycat < mycat.c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char c;
+    while ((c = getchar()) != EOF) {
+	putchar(c);
+    }
+    exit(0);
+}

@@ -1,0 +1,8 @@
+#
+# trace17.txt - Process fg builtin command (one job)
+#
+tsh> ./mytstps
+Job [1] (7822) stopped by signal 127
+tsh> jobs
+[1] (7822) Stopped    ./mytstps
+tsh> fg %1

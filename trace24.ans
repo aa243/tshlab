@@ -1,0 +1,7 @@
+#
+# trace24.txt - I/O redirection (input and output, different order)
+#
+tsh> ./mycat > /dev/null < mycat.c
+tsh> ./myspin1 &
+[1] (8031) ./myspin1 &
+tsh> jobs > /dev/null

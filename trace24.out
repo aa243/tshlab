@@ -1,0 +1,6 @@
+#
+# trace24.txt - I/O redirection (input and output, different order)
+#
+tsh> ./mycat > /dev/null < mycat.c
+trace24.txt: Runtrace timed out waiting for next shell prompt
+Child shell still running.

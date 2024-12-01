@@ -1,0 +1,15 @@
+#
+# trace16.txt - Process bg builtin command (two jobs)
+#
+tsh> ./myspin1 10 &
+[1] (7800) ./myspin1 10 &
+tsh> ./mytstpp
+Job [2] (7802) stopped by signal 127
+tsh> jobs
+[1] (7800) Running    ./myspin1 10 &
+[2] (7802) Stopped    ./mytstpp
+tsh> bg %2
+[2] (7802) ./mytstpp
+tsh> jobs
+[1] (7800) Running    ./myspin1 10 &
+[2] (7802) Running    ./mytstpp
