@@ -2,5 +2,13 @@
 # trace22.txt - I/O redirection (input)
 #
 tsh> ./mycat < mycat.c
-trace22.txt: Runtrace timed out waiting for next shell prompt
-Child shell still running.
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char c;
+    while ((c = getchar()) != EOF) {
+	putchar(c);
+    }
+    exit(0);
+}

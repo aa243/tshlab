@@ -2,10 +2,10 @@
 # trace18.txt - Process fg builtin command (two jobs)
 #
 tsh> ./myspin1 10 &
-[1] (7854) ./myspin1 10 &
+[1] (3033) ./myspin1 10 &
 tsh> ./mytstps
-Job [2] (7856) stopped by signal 20
+Job [2] (3035) stopped by signal 20
 tsh> jobs
-[1] (7854) Running    ./myspin1 10 &
-[2] (7856) Stopped    ./mytstps
+[1] (3033) Running    ./myspin1 10 &
+[2] (3035) Stopped    ./mytstps
 tsh> fg %2

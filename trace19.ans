@@ -2,5 +2,5 @@
 # trace19.txt - Forward SIGINT to every process in foreground process group
 #
 tsh> ./mysplit 10
-Job [1] (7876) terminated by signal 2
+Job [1] (3055) terminated by signal 2
 tsh> /bin/sh -c '/bin/ps h | /bin/fgrep -v grep | /bin/fgrep mysplit'

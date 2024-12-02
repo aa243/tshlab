@@ -2,7 +2,7 @@
 # trace10.txt - Send fatal SIGTERM (15) to a background job.
 #
 tsh> ./myspin1 5 &
-[1] (7667) ./myspin1 5 &
+[1] (2835) ./myspin1 5 &
 tsh> ./mykill.pl myspin1
 Killed myspin1
 Killed myspin1

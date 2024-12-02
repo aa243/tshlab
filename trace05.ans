@@ -2,5 +2,5 @@
 # trace05.txt - Run a background job.
 #
 tsh> ./myspin1 &
-[1] (7572) ./myspin1 &
+[1] (2747) ./myspin1 &
 tsh> quit

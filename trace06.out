@@ -2,5 +2,5 @@
 # trace06.txt - Run a foreground job and a background job.
 #
 tsh> ./myspin1 &
-[1] (7579) ./myspin1 &
+[1] (2754) ./myspin1 &
 tsh> ./myspin2 1

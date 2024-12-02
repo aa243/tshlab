@@ -2,5 +2,5 @@
 # trace08.txt - Send fatal SIGINT to foreground job.
 #
 tsh> ./myintp
-Job [1] (7638) terminated by signal 2
+Job [1] (2814) terminated by signal 2
 tsh> quit

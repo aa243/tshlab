@@ -3,5 +3,5 @@
 #
 tsh> ./mycat < mycat.c > /dev/null
 tsh> ./myspin1 &
-[1] (8006) ./myspin1 &
+[1] (3168) ./myspin1 &
 tsh> jobs > /dev/null

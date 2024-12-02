@@ -2,8 +2,8 @@
 # trace15.txt - Process bg builtin command (one job)
 #
 tsh> ./mytstpp
-Job [1] (7792) stopped by signal 20
+Job [1] (2962) stopped by signal 20
 tsh> bg %1
-[1] (7792) ./mytstpp
+[1] (2962) ./mytstpp
 tsh> jobs
-[1] (7792) Running    ./mytstpp
+[1] (2962) Running    ./mytstpp

@@ -2,6 +2,6 @@
 # trace12.txt - Child sends SIGTSTP to itself
 #
 tsh> ./mytstps
-Job [1] (7727) stopped by signal 20
+Job [1] (2892) stopped by signal 20
 tsh> jobs
-[1] (7727) Stopped    ./mytstps
+[1] (2892) Stopped    ./mytstps
